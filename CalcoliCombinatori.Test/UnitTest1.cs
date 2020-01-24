@@ -9,6 +9,10 @@ namespace CalcoliCombinatori.Test
         [TestMethod]
         public void TestMethod1()
         {
+            long n = 0;
+            long ris = EquazioniLibrary.CalcoliCombinatori.Fattoriale(n);
+            long risasp = 1;
+            Assert.AreEqual(risasp, ris);
         }
     }
 }
